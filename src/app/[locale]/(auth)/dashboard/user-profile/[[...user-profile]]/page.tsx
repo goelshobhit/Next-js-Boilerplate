@@ -1,7 +1,5 @@
 import type { Metadata } from 'next';
-import { UserProfile } from '@clerk/nextjs';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
-import { getI18nPath } from '@/utils/Helpers';
 
 type UserProfilePageProps = {
   params: Promise<{ locale: string }>;
@@ -25,9 +23,10 @@ export default async function UserProfilePage(props: UserProfilePageProps) {
 
   return (
     <div className="my-6 lg:-ml-12">
-      <UserProfile
-        path={getI18nPath('/dashboard/user-profile', locale)}
-      />
+      <div className="rounded-xl border border-gray-200 bg-white p-6">
+        <h2 className="text-lg font-semibold text-black">Profile</h2>
+        <p className="mt-2 text-sm text-gray-500">User profile settings.</p>
+      </div>
     </div>
   );
-};
+}

@@ -12,9 +12,6 @@ const baseConfig: NextConfig = {
   poweredByHeader: false,
   reactStrictMode: true,
   reactCompiler: process.env.NODE_ENV === 'production', // Keep the development environment fast
-  outputFileTracingIncludes: {
-    '/': ['./migrations/**/*'],
-  },
 };
 
 // Initialize the Next-Intl plugin

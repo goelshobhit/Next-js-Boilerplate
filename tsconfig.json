@@ -40,7 +40,7 @@
     // Settings for working with different file types and modules
     // ======================================================================
     "allowJs": true,
-    "checkJs": true,
+    "checkJs": false,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     // ======================================================================
@@ -87,6 +87,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.jsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts"

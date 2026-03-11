@@ -5,10 +5,10 @@ export const Sponsors = () => (
     <tbody>
       <tr className="h-56">
         <td className="border-2 border-gray-300 p-3">
-          <a href="https://clerk.com?utm_source=github&utm_medium=sponsorship&utm_campaign=nextjs-boilerplate">
+          <a href="https://nextjs.org">
             <Image
-              src="/assets/images/clerk-logo-dark.png"
-              alt="Clerk – Authentication & User Management for Next.js"
+              src="/assets/images/nextjs-boilerplate-saas.png"
+              alt="Next.js"
               width={260}
               height={224}
             />

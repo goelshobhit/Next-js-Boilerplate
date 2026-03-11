@@ -2,7 +2,6 @@
   "RootLayout": {
     "home_link": "Home",
     "about_link": "About",
-    "counter_link": "Counter",
     "portfolio_link": "Portfolio",
     "sign_in_link": "Sign in",
     "sign_up_link": "Sign up"
@@ -12,25 +11,53 @@
     "footer_text": "© {year} {name}. Made with <author></author>.",
     "main_navigation_label": "Main navigation"
   },
+  "TTMSConnectHomePage": {
+    "nav_features": "Features",
+    "nav_how_it_works": "How it Works",
+    "nav_pricing": "Pricing",
+    "nav_faq": "FAQ",
+    "nav_log_in": "Log in",
+    "nav_get_started": "Get Started",
+    "hero_badge": "New: AI-Powered Automation v2.0",
+    "hero_headline": "Turn your data into",
+    "hero_headline_highlight": "growth opportunities.",
+    "hero_subheadline": "Join thousands of fleet organisation who use TTMSConnect to analyze, automate, and scale their fleet effectively—all in one place.",
+    "hero_cta_trial": "Start Free Trial",
+    "hero_cta_demo": "Watch Demo",
+    "hero_social_proof": "Loved by 10,000+ marketing teams",
+    "logo_trusted": "Trusted by innovative teams at",
+    "features_heading": "Everything you need to scale",
+    "features_subheading": "Powerful features designed to help you manage, optimize, and grow your marketing efforts without the complexity.",
+    "process_badge": "How it Works",
+    "process_heading": "Streamline your workflow in three simple steps.",
+    "process_subheading": "Stop switching between tabs. TTMSConnect brings your entire marketing stack together so you can focus on strategy.",
+    "testimonials_heading": "Loved by marketing teams",
+    "testimonials_subheading": "See what our customers have to say about TTMSConnect.",
+    "pricing_heading": "Simple, transparent pricing",
+    "pricing_subheading": "Choose the plan that fits your needs. No hidden fees.",
+    "pricing_most_popular": "Most Popular",
+    "pricing_per_month": "/month",
+    "pricing_choose": "Choose {name}",
+    "faq_heading": "Frequently asked questions",
+    "faq_subheading": "Everything you need to know about the product and billing. Can't find the answer you're looking for? Please chat to our friendly team.",
+    "faq_contact_support": "Contact Support",
+    "cta_heading": "Ready to grow your business?",
+    "cta_subheading": "Join 10,000+ fleet organisation today. Start your 14-day free trial and see the difference.",
+    "cta_get_started": "Get Started for Free",
+    "cta_contact_sales": "Contact Sales",
+    "cta_disclaimer": "No credit card required. Cancel anytime.",
+    "footer_tagline": "Empowering fleet organisation with data-driven insights and automation tools to scale growth effectively.",
+    "footer_copyright": "© 2024 TTMSConnect Inc. All rights reserved.",
+    "footer_systems": "All systems operational",
+    "footer_product": "Product",
+    "footer_company": "Company",
+    "footer_legal": "Legal"
+  },
   "Index": {
     "meta_title": "Next.js Boilerplate Presentation",
     "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
     "sponsors_title": "Sponsors",
     "zap_emoji_label": "Zap"
-  },
-  "Counter": {
-    "meta_title": "Counter",
-    "meta_description": "An example of DB operation",
-    "security_powered_by": "Security, bot detection and rate limiting powered by"
-  },
-  "CounterForm": {
-    "presentation": "The counter is stored in the database and incremented by the value you provide.",
-    "label_increment": "Increment by",
-    "button_increment": "Increment",
-    "error_increment_range": "Value must be between 1 and 3"
-  },
-  "CurrentCount": {
-    "count": "Count: {count}"
   },
   "About": {
     "meta_title": "About",
